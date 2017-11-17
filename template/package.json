@@ -5,7 +5,7 @@
   "author": "{{ author }}",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "dev": "webpack-dev-server --inline --progress --config frontend/build/webpack.dev.conf.js",
     "start": "npm run dev",
     {{#if_eq runner "jest"}}
     "unit": "jest test/unit/specs --coverage",
@@ -21,7 +21,7 @@
     {{#lint}}
     "lint": "eslint --ext .js,.vue src{{#unit}} test/unit/specs{{/unit}}{{#e2e}} test/e2e/specs{{/e2e}}",
     {{/lint}}
-    "build": "node build/build.js"
+    "build": "node frontend/build/build.js"
   },
   "dependencies": {
     "vue": "^2.5.2"{{#router}},
