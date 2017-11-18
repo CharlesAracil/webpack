@@ -7,6 +7,10 @@
     </head>
     <body>
         <div id="app"></div>
+        {% if not DEBUG %}
+            {% render_bundle 'manifest' 'js' %}
+            {% render_bundle 'vendor' 'js' %}
+        {% endif %}
         {% render_bundle 'app' %}
     </body>
 </html>
