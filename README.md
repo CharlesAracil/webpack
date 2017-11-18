@@ -1,8 +1,10 @@
-# vue-webpack-boilerplate
+# vue-webpack-vue-django-boilerplate
 
-> A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction.
+> A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction, setup with Vue and Django.
 
 > This template is Vue 2.0 compatible. For Vue 1.x use this command: `vue init webpack#1.0 my-project`
+
+> This template is a fork of [vuejs-templates/webpack](https://github.com/vuejs-templates/webpack). Snippets and guidance have been found from [hello-vue-django](https://github.com/rokups/hello-vue-django) and a post from [ariera](https://ariera.github.io/2017/09/26/django-webpack-vue-js-setting-up-a-new-project-that-s-easy-to-develop-and-deploy-part-1.html) blog.
 
 ## Documentation
 
