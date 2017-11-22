@@ -4,7 +4,7 @@
 module.exports = {
   'default e2e tests': function {{#if_eq lintConfig "airbnb"}}test{{/if_eq}}(browser) {
     // automatically uses dev Server port from /config.index.js
-    // default: http://localhost:8080
+    // default: http://localhost:8001
     // see nightwatch.conf.js
     const devServer = browser.globals.devServerURL{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 

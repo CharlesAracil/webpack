@@ -5,7 +5,7 @@
 const path = require('path')
 
 const devhost = 'localhost'
-const devport = 8080
+const devport = 8001
 
 module.exports = {
   dev: {
